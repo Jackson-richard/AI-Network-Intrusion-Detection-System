@@ -17,7 +17,6 @@ st.markdown("""
 
 DATA_FILE = "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
 
-# --- SIDEBAR: SETTINGS ---
 st.sidebar.header("1. Settings")
 groq_api_key = st.sidebar.text_input("Groq API Key (starts with gsk_)", type="password")
 st.sidebar.caption("[Get a free key here](https://console.groq.com/keys)")
