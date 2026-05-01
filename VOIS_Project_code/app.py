@@ -56,7 +56,7 @@ def train_model(df):
     score = accuracy_score(y_test, clf.predict(X_test))
     return clf, score, features, X_test, y_test
 
-# --- APP LOGIC ---
+
 df = load_data(DATA_FILE)
 
 if df is None:
