@@ -8,7 +8,6 @@ from sklearn.metrics import accuracy_score
 from groq import Groq
 import os
 
-# --- PAGE SETUP ---
 st.set_page_config(page_title="AI-NIDS Student Project", layout="wide")
 
 st.title("AI-Based Network Intrusion Detection System")
@@ -16,7 +15,6 @@ st.markdown("""
 **Student Project**: This system uses **Random Forest** to detect Network attacks and **Groq AI** to explain the packets.
 """)
 
-# --- CONFIGURATION ---
 DATA_FILE = "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
 
 # --- SIDEBAR: SETTINGS ---
